@@ -21,3 +21,8 @@
   background-color: #4CAF50;
   color: white;
 }
+
+*{
+ background-image: "goonman.jpg" ;
+ opacity: 0.4;
+}
