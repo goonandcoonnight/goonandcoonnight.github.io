@@ -26,12 +26,9 @@
   margin-left: 200px;
   margin-right: 200px;
 }
-.titlepage a {
-  background-image: url("goonman.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.titlepage img.goonman{
+  position: center;
+  size: cover;
   height: 100%;
   opacity: 0.4;
 }
-
