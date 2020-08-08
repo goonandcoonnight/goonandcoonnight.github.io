@@ -26,8 +26,7 @@ body{
  background-image: url("goonman.jpg");
  background-position: right;
  background-position: left;
- background-repeat: repeat-x;
- background-repeat: repeat-y;
  background-color: white;
+ opacity: 0.4;
 }
 
