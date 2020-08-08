@@ -9,7 +9,7 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17pxx
+  font-size: 17pxx;
 }
 
 .topnav a:hover {
@@ -25,9 +25,8 @@
 body{
  background-image: url("goonman.jpg");
  background-position: right, left;
- background-repeat: no-repeat;
- margin-right: 200px;
- margin-left: 200px;
+ background-repeat: repeat-x;
+ background-repeat: repeat-y;
  background-color: white;
 }
 
