@@ -23,7 +23,7 @@
 }
 
 body{
- background-image: "goonman.jpg" ;
+ background-image: url("goonman.jpg") ;
 }
 .goonman{
   opacity: 0.4;
