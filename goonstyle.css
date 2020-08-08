@@ -25,11 +25,8 @@
   position: center;
   margin-left: 200px;
   margin-right: 200px;
-}
-.goonman{
-  opacity: 0.4;
-  position: center;
-  height: 500px;
-  width: 500px;
+  background-image: url("goonman.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
