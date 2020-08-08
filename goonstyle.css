@@ -8,7 +8,7 @@
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
-  test-decoration: none;
+  text-decoration: none;
   font-size: 17pxx
 }
 
@@ -22,7 +22,9 @@
   color: white;
 }
 
-.goonman{
+body{
  background-image: "goonman.jpg" ;
- opacity: 0.4;
+}
+.goonman{
+  opacity: 0.4;
 }
