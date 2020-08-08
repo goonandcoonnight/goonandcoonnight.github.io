@@ -25,6 +25,8 @@
   position: center;
   margin-left: 200px;
   margin-right: 200px;
+}
+.bg {
   background-image: url("goonman.jpg");
   background-position: center;
   background-repeat: no-repeat;
