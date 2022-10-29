@@ -3,7 +3,7 @@
   overflow: hidden;
 }
 
-.topnav a{
+.topnav a {
   float: left;
   color: #f2f2f2;
   text-align: center;
@@ -21,12 +21,14 @@
   background-color: #4CAF50;
   color: white;
 }
+
 .titlepage {
   position: center;
   margin-left: 200px;
   margin-right: 200px;
 }
-.titlepage img.goonman{
+
+.titlepage img.goonman {
   position: center;
   size: cover;
   height: 100%;
