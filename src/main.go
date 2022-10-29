@@ -19,4 +19,6 @@ func main() {
 	fmt.Printf("goon game\n")
 
 	js.Global().Set("printHtml", printHtml())
+
+	select {}
 }
