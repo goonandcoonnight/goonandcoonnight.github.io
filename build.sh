@@ -1,1 +1,1 @@
-cd ./src/ && GOOS=js GOARCH=wasm go build -o ../assets/goongame.wasm
+cd ./src/ && GOOS=js GOARCH=wasm go build -o ../goongame.wasm
