@@ -71,4 +71,6 @@ func main() {
 		Height: 640,
 	}
 	engo.Run(opts, &DefaultScene{})
+
+	select {}
 }
