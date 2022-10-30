@@ -21,7 +21,7 @@ type GoonMan struct {
 }
 
 func (*DefaultScene) Preload() {
-	engo.Files.Load("../goonman.png")
+	engo.Files.Load("./goonman.png")
 }
 
 func (*DefaultScene) Setup(u engo.Updater) {
@@ -32,7 +32,7 @@ func (*DefaultScene) Setup(u engo.Updater) {
 	w.AddSystem(&common.RenderSystem{})
 
 	// Retrieve a texture
-	texture, err := common.LoadedSprite("../goonman.png")
+	texture, err := common.LoadedSprite("./goonman.png")
 	if err != nil {
 		log.Println(err)
 	}
