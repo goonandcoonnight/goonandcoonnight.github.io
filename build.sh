@@ -1,1 +1,1 @@
-cd ./src/ && GOOS=js GOARCH=wasm go build -o ../goongame.wasm
+cd goongame && cargo build --release --target wasm32-unknown-unknown && wasm-bindgen --out-name goongame --out-dir ./wasm/ --target web target/wasm32-unknown-unknown/release/goongame.wasm
